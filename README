@@ -1,0 +1,15 @@
+In order to install pyIPOPT in pyOpt, copy the pyIPOPT folder in pyOpt/pyOpt/.,
+and the setup.py file in pyOpt/.
+
+Make sure the setup.py file reflects your own local settings.
+
+Once this is done, simply run :
+python setup.py install
+
+
+To make sure everything is running fine, you can run the IPOPTtest.py file.
+
+Have fun.
+
+
+Sylvain Arreckx
