@@ -97,7 +97,7 @@ class IPOPT(Optimizer):
             # Termination options
             'tol': [float, 1e-8],  # relative convergence tolerance
             'max_iter': [int, 3000],  # Maximum number of iterations
-            'max_cpu_time': [int, 1e+6],  # Maximum number of CPU seconds.
+            'max_cpu_time': [float, 1e+6],  # Maximum number of CPU seconds.
             # Desired threshold for the dual infeasibility
             'dual_inf_tol': [float, 1],
             # Desired threshold for the constraint violation
